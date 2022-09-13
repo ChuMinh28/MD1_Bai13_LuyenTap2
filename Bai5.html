@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let star=["Polaris","Aldebaran","Deneb","Vega","Altair","Dubhe","Regulus"]
+    let name=["Ursa Minor","Tarurus","Cygnus","Lyra","Aquila","Ursa Mijor","Leo"]
+    let checkStar=prompt("Nhap Sao ban muon kiem tra vao day!")
+    let check=star.indexOf(checkStar)
+    if(check===-1){
+        alert("Please try again")
+    }else {
+        alert("The star is belong to:  "+name[star.indexOf(checkStar)])
+    }
+</script>
+</body>
+</html>
